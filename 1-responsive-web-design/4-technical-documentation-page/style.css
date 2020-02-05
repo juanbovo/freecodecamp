@@ -1,0 +1,64 @@
+* {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+code {
+  display: block;
+  padding: 15px 30px;
+  background-color: #e3e3e3;
+  font-family: Courier New, Courier, monospace;
+}
+
+header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.3rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+nav {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #1d3e6d;
+  color: #fff1fc;
+  font-family: Arial;
+}
+
+nav > ul {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+@media (max-width: 650px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  nav > ul {
+    font-size: 1rem;
+  }
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #fff1fc;
+}
+
+#main-doc {
+  padding: 2%;
+}
+
+h1, h2, h3, h4, p {
+  font-family: Arial;
+}
+
+/*# sourceMappingURL=style.css.map */

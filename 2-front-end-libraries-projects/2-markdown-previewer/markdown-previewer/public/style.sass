@@ -1,0 +1,87 @@
+@import url(//db.onlinewebfonts.com/c/c86f6e311c62f1ee74affa41d9c3686f?family=Streamster)
+//@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap)
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css)
+
+@mixin window-border
+    border: 5px solid #f9cb4a
+    border-radius: 0.5em
+    color: #333
+    padding: 1em
+    background-color: #fff
+    min-width: 40%
+    @media (max-width: 650px)
+        padding: 0.3em 1em
+
+*
+    box-sizing: border-box
+
+body
+    background-image: linear-gradient(90deg, #181719 0%, #3a3d40 100%)
+
+
+.App
+    margin: 0 auto
+    width: 90%
+    color: #eee
+
+.App-header
+    text-align: center
+    & > h1
+        font-family: "Streamster"
+        font-size: 3rem
+        margin: 0.25rem
+        background: -webkit-linear-gradient(#fe53fe, #fff152)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
+.App-body
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-column-gap: 2%
+
+.App-editor
+    @include window-border
+    font-family: "Courier New", Courier, monospace
+
+textarea
+    width: 100%
+    height: 60%
+    border: none
+    font-family: "Courier New", Courier, monospace
+    outline: none
+    resize: none
+
+.App-previewer
+    @include window-border
+    font-family: Arial, Helvetica, sans-serif
+
+#preview
+    overflow-x: scroll
+
+img
+    max-width: 90%
+
+.footer
+    text-align: right
+    padding: 1em
+    font-size: 1.2em
+    & > p > a
+        color: #eee
+
+@media (max-width: 650px)
+    .App-body
+        display: flex
+        flex-direction: column
+    .App-editor
+        height: 15em
+    .App-window
+        & > h2
+            margin: 0.33em 0
+    .App-header
+        & > h1
+            font-size: 2em
+    .App-previewer
+        margin-top: 0.5em
+    .footer
+        text-align: center
+        font-size: 1em

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Satisfacción de los Insatisfechos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <h1 id="title">Encuesta de Satisfacción para gente insatisfecha</h1>
+    <p id="description">Habiendo tantas encuestas, ¿qué le hace una más?</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Nombre</label><br>
+        <input type="text" name="name" id="name" placeholder="Por favor, dime tu nombre. Nada de inventar." required><br>
+        <label for="email" id="email-label">e-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="Tu e-mail. Me voy a dar cuenta si mentís." required><br>
+        <label for="number" id="number-label">Edad</label><br>
+        <input type="number" name="number" id="number" min="0" max="99" placeholder="¿Edad? Todos tus años. TODOS. A menos que tengas 100, que ya no me interesa."><br>
+        <h4>¿Qué tan insatisfecho estás?</h4>
+        <select name="dropdown" id="dropdown">
+            <option value="none" disabled selected>Sin mentir.</option>
+            <option value="peor">Podría ser peor</option>
+            <option value="mascota">Apagué la tele y me conseguí un mascota.</option>
+            <option value="drogado-mal">Tomo drogas y no me doy cuenta de nada.</option>
+            <option value="drogado-bien">Tomo drogas porque me doy cuenta de todo.</option>
+            <option value="puta-bida">Puta Bida. Pasame el revólver.</option>
+        </select>
+        <h4>¿Vale la pena seguir vivo?</h4>
+        <input type="radio" name="seguir-vivo" id="" checked="checked" value="totalmente">Sí, para ver qué pasa.<br>
+        <input type="radio" name="seguir-vivo" id="" value="si">Obvio, que explote todo.<br>
+        <input type="radio" name="seguir-vivo" id="" value="maso">Dejame pensarlo un rato.<br>
+        <input type="radio" name="seguir-vivo" id="" value="no">No, pero hay gente que quiere que me muera y yo sigo acá para molestarlos.<br>
+        <input type="radio" name="seguir-vivo" id="" value="ni-en-pedo">Te dije que me pases el revólver más arriba.<br>
+        <h4>¿Cuál es la mejor forma de irse?</h4>
+        <p><i>Es posible elegir más de una opción.</i></p>
+        <input type="checkbox" name="irse" id="naturalmente" value="naturalmente" checked="checked">Sin prisa. Que aguanten.<br>
+        <input type="checkbox" name="irse" id="accidente" value="accidente">Si pasa, pasa.<br>
+        <input type="checkbox" name="irse" id="eutanasia" value="eutanasia">Eutanasia cuando toque.<br>
+        <input type="checkbox" name="irse" id="inmolación" value="inmolación">A un par me los llevo conmigo.<br>
+        <input type="checkbox" name="irse" id="chumbo" value="chumbo">¿Y dónde está mi chumbo?<br>
+        <input type="checkbox" name="irse" id="aborto" value="aborto">¡Aborto obligatorio para todos!<br>
+        <textarea name="" id="" cols="30" rows="10">Descargate un poco, dale.</textarea> <br>
+        <button type="submit" id="submit">Enviar... total...</button>
+    </form>
+</body>
+</html>
