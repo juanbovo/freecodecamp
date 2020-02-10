@@ -1,0 +1,110 @@
+@import url(//db.onlinewebfonts.com/c/a83bbb374f4b255a241f39b0ed9eb9c1?family=Pop);
+@import url(//db.onlinewebfonts.com/c/c86f6e311c62f1ee74affa41d9c3686f?family=Streamster);
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap);
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(http://mirchimasala.ca/wp-content/uploads/2017/12/pexels-photo-326333.jpeg);
+  background-size: contain;
+}
+
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  border: 5px solid #fafafa;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, #3a3d40 0%, #181719 100%);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.App-header h1 {
+  font-family: "Streamster", "Shadows Into Light", cursive;
+  font-size: 3rem;
+  margin: 0.25rem;
+  background: -webkit-linear-gradient(#e750dd, #fe5353, #fff152, #52fcff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.App-header h3 {
+  color: #fafafa;
+  font-size: 2em;
+  font-family: "Streamster", "Shadows Into Light", cursive;
+  background: -webkit-linear-gradient(#ffff2ffa, #fec853, #ff5252);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#drum-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#drum-machine {
+  display: grid;
+  grid: repeat(3, auto)/repeat(3, auto);
+  width: 600px;
+  height: 600px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.drum-pad {
+  padding: 55px;
+  border: 20px solid #bababa;
+  width: 185px;
+  height: 185px;
+  margin: auto;
+  border-radius: 15%;
+  color: #bababa;
+  font-size: 2em;
+  font-weight: 900;
+}
+.drum-pad:hover {
+  color: #52fcff;
+  border-color: #52fcff;
+}
+.drum-pad:active {
+  color: #e9e956;
+  border-color: #6ae956;
+}
+
+#controls {
+  width: 40%;
+  padding: 10px;
+}
+
+#display {
+  font-family: "Pop", "VT323", monospace;
+  border: 5px solid grey;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 100%;
+  padding: 10px;
+  color: #e34234;
+  background-color: black;
+  text-align: center;
+}
+
+#drum-button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #bababa;
+  font-size: 2em;
+  font-weight: 900;
+  outline: none;
+}
+#drum-button:active {
+  color: #e3e3e3;
+}
+
+/*# sourceMappingURL=style.css.map */
