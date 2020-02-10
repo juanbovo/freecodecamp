@@ -19,19 +19,19 @@ There are 5 projects related to their corresponding FreeCodeCamp challenge. Just
 
 1. Tribute Page
     - [User stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
-    - [Codepen](https://codepen.io/juanbovo/pen/XWJzyYy)
+    - [Codepen](https://codepen.io/juanbovo/full/XWJzyYy)
 2. Survey Form
     - [User stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
-    - [Codepen](https://codepen.io/juanbovo/pen/mdyqaPm)
+    - [Codepen](https://codepen.io/juanbovo/full/mdyqaPm)
 3. Product Landing Page
     - [User stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
-    - [Codepen](https://codepen.io/juanbovo/pen/GRgyEPZ)
+    - [Codepen](https://codepen.io/juanbovo/full/GRgyEPZ)
 4. Technical Documentation
     - [User stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
-    - [Codepen](https://codepen.io/juanbovo/pen/GRgyOoV)
+    - [Codepen](https://codepen.io/juanbovo/full/GRgyOoV)
 5. Personal Portfolio Webpage
     - [User stories](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
-    - [Codepen](https://codepen.io/juanbovo/details/GRgQZEG)
+    - [Codepen](https://codepen.io/juanbovo/full/GRgQZEG)
 
 ---
 
@@ -39,13 +39,13 @@ There are 5 projects related to their corresponding FreeCodeCamp challenge. Just
 There are 5 projects related to their corresponding FreeCodeCamp challenge. HTML, CSS (Sass) and JS (React).
 1. Random Quote Machine
     - [User stories](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
-    - [Codepen](https://codepen.io/juanbovo/pen/QWwVOrZ)
+    - [Codepen](https://codepen.io/juanbovo/full/QWwVOrZ)
 2. MarkDown Previewer
     - [User stories](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer)
-    - [Codepen](https://codepen.io/juanbovo/pen/yLyZPWp)
+    - [Codepen](https://codepen.io/juanbovo/full/yLyZPWp)
 3. Drum Machine
     - [User stories](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine)
-    - [Codepen]()
+    - [Codepen](https://codepen.io/juanbovo/full/vYEPpRL)
 4. Javascript Calculator
     - [User stories](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator)
     - [Codepen]()
