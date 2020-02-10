@@ -97,17 +97,36 @@ const bankTwo = [{
 
 
 function App() {
-  const [display, setDisplay] = useState('display')
+  const [display, setDisplay] = useState('¡Cambiame la música!')
   const [soundBank, setSoundBank] = useState(bankOne)
 
   return (
     <div className="App">
       <header className="App-header">
+
         <h1>Drum Machine</h1>
-        <h3>La máquene del sonidoo...</h3>
-        <p id="display">{display}</p>
-        <DrumBank setSoundBank={setSoundBank} soundBank={soundBank}/>
-        <DrumMachine setDisplay={setDisplay} soundBank={soundBank}/>
+
+        <h3>La máquina del sonido</h3>
+
+        <div id="drum-container">
+
+          <DrumMachine
+            setDisplay={setDisplay}
+            soundBank={soundBank}
+          />
+
+          <div id="controls">
+
+            <p id="display">{display}</p>
+
+            <DrumBank
+              setSoundBank={setSoundBank}
+              soundBank={soundBank}
+              setDisplay={setDisplay}
+            />
+
+          </div>
+        </div>
       </header>
     </div>
   );
@@ -115,7 +134,7 @@ function App() {
 
 function DrumMachine(props) {
   
-  return <div>
+  return <>
     <div id="drum-machine">
             {props.soundBank.map(pad => <DrumPad
               key={pad.id}
@@ -126,20 +145,25 @@ function DrumMachine(props) {
               setDisplay={props.setDisplay}
               />)}
     </div>
-  </div>
+  </>
 }
 
 function DrumBank(props){
   const [soundBankName, setSoundBankName] = useState('Bank One')
 
   const handleSoundBank = () => {
+    
     if (props.soundBank === bankOne) {
       props.setSoundBank(bankTwo)
+      props.setDisplay('Bank Two')
       setSoundBankName('Bank Two')
+
     } else {
       props.setSoundBank(bankOne)
+      props.setDisplay('Bank One')
       setSoundBankName('Bank One')
     }
+
   }
 
   return <>
